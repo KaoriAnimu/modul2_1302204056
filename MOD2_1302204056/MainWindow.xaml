@@ -1,0 +1,25 @@
+﻿<Window x:Class="MOD2_1302204046.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MOD2_1302204046"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10,10,0,0">
+        <Button x:Name="satu" Content="1" HorizontalAlignment="Left" Height="46" Margin="242,140,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.64,-2.102" Click="satu_Click"/>
+        <Button x:Name="dua" Content="2" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.94,-0.61" Margin="325,140,0,0" Click="dua_Click"/>
+        <Button x:Name="tiga" Content="3" HorizontalAlignment="Left" Height="46" Margin="408,140,0,0" VerticalAlignment="Top" Width="84" Click="tiga_Click"/>
+        <Button x:Name="empat" Content="4" HorizontalAlignment="Left" Height="46" Margin="242,186,0,0" VerticalAlignment="Top" Width="84" Click="empat_Click"/>
+        <Button x:Name="lima" Content="5" HorizontalAlignment="Left" Height="46" Margin="325,186,0,0" VerticalAlignment="Top" Width="84" Click="lima_Click"/>
+        <Button x:Name="enam" Content="6" HorizontalAlignment="Left" Height="46" Margin="408,186,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="enam_Click"/>
+        <Button x:Name="tujuh" Content="7" HorizontalAlignment="Left" Height="46" Margin="242,232,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="tujuh_Click"/>
+        <Button x:Name="delapan" Content="8" HorizontalAlignment="Left" Height="46" Margin="326,232,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="delapan_Click"/>
+        <Button x:Name="sembilan" Content="9" HorizontalAlignment="Left" Height="46" Margin="409,232,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="sembilan_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="46" Margin="588,140,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="Plus_Click"/>
+        <Button x:Name="sama" Content="=" HorizontalAlignment="Left" Height="46" Margin="588,186,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="sama_Click"/>
+        <TextBox x:Name="layer" HorizontalAlignment="Left" Margin="242,66,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="430" Height="42"/>
+        <Button x:Name="NOL" Content="0" HorizontalAlignment="Left" Height="46" Margin="325,278,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="1.911,2.898" Click="NOL_Click"/>
+
+    </Grid>
+</Window>
